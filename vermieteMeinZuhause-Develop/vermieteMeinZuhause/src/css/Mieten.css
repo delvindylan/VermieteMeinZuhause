@@ -1,0 +1,7 @@
+.Object-Board{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    border-radius: 50px;
+}

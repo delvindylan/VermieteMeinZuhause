@@ -1,0 +1,93 @@
+
+.aboutText {
+    padding-left: 100px;
+}
+
+.aboutTitle {
+    color: white;
+    font-size: 3rem;
+}
+
+.aboutPage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.aboutText {
+    font-size: 1.5rem;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+  
+  .contactForm {
+    text-align: right;
+    padding-left: 18rem;
+
+}
+
+.contactInput {
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+.contactInput:focus {
+    width: 130%;
+}
+
+.contactButton {
+    display: block;
+    border: none;
+    /*padding: 15px 10px;*/
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.2s;
+}
+    
+#contactSubmit {
+    padding: 15px 20px;
+}
+
+#contactClear {
+    padding: 15px 30px;
+}
+    
+.contactButton:hover {
+    background-color:rgb(179, 179, 179);
+}
+
+.contactButton:active {
+    background-color: rgb(108, 108, 108);
+}
+
+.contactLabel {
+    font-size: 2.5rem;
+    color: white;
+    padding-right: 58px;
+ 
+}
+
+.aboutLabel {
+    font-size: 2.5rem;
+    color: white;
+    padding-left: 210px;
+}
+
+.AboutBody {
+    color: white;
+}

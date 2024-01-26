@@ -1,0 +1,11 @@
+#Errorpage{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: rgb(131, 230, 129);
+    border-width: 1rem;
+}
